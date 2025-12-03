@@ -1,70 +1,70 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 .navbar {
-background: #1f1f1f;
-padding: 15px;
-text-align: center;
+    background: #1f1f1f;
+    padding: 15px;
+    text-align: center;
 }
 
 .navbar a {
-color: #fff;
-margin: 0 20px;
-text-decoration: none;
-font-size: 18px;
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .hero {
-padding: 100px;
-text-align: center;
-background: #f3f3f3;
+    padding: 100px;
+    text-align: center;
+    background: #f3f3f3;
 }
 
 .form-container {
-width: 350px;
-margin: 40px auto;
+    width: 350px;
+    margin: 40px auto;
 }
 
 .form-container form {
-display: flex;
-flex-direction: column;
-gap: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .form-container input {
-padding: 10px;
-border: 1px solid #aaa;
-border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
 }
 
 button {
-padding: 12px;
-background: #1f1f1f;
-color: white;
-border: none;
-border-radius: 5px;
-cursor: pointer;
+    padding: 12px;
+    background: #1f1f1f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .content {
-padding: 30px;
+    padding: 30px;
 }
 
 .books-grid {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .book-card {
-padding: 20px;
-border: 1px solid #ddd;
-border-radius: 8px;
-background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
 }
 
 .alert {
@@ -89,4 +89,15 @@ background: white;
     background-color: #e6ffea;
     color: #007f33;
     border: 1px solid #b3ffcc;
+}
+
+#book-search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9fafb;
+    border-radius: 6px;
 }
