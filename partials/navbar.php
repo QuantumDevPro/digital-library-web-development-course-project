@@ -5,8 +5,7 @@ if (session_status() === PHP_SESSION_NONE) {
 ?>
 <nav class="navbar">
     <div class="nav-left">
-        <a href="/web-project/index.php">Home</a>
-        <a href="/web-project/books.php">Books</a>
+        <a href="/web-project/books.php">Home</a>
 
         <?php if (isset($_SESSION['user_id'])): ?>
             <a href="/web-project/my_borrowings.php">My Borrowings</a>
