@@ -101,3 +101,50 @@ button {
     background-color: #f9fafb;
     border-radius: 6px;
 }
+
+/* NAVBAR */
+.navbar {
+    background: #1f1f1f;
+    padding: 15px 25px;
+
+    display: flex;
+    justify-content: space-between; /* left group ↔ right group */
+    align-items: center;
+}
+
+/* Left side links */
+.nav-left a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-left a:hover {
+    text-decoration: underline;
+}
+
+/* Right side section: welcome + logout */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* spacing between welcome + logout */
+}
+
+/* The welcome message */
+.welcome-text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Right-side links */
+.nav-right a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
