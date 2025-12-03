@@ -10,10 +10,11 @@
 
 <header>
 <nav class="navbar">
-<a href="index.php">Home</a>
-<a href="books.php">Books</a>
-<a href="login.php">Login</a>
-<a href="register.php">Register</a>
+    <a href="index.php">Home</a>
+    <a href="books.php">Books</a>
+    <a href="my_borrowings.php">My Borrowings</a>
+    <a href="login.php">Login</a>
+    <a href="register.php">Register</a>
 </nav>
 </header>
 

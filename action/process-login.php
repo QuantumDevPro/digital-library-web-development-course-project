@@ -57,7 +57,7 @@ try {
     $_SESSION['user_name'] = $user['name'];
     $_SESSION['login_success'] = 'Login successful.';
 
-    header('Location: ../dashboard.php');
+    header('Location: ../books.php');
     exit;
 } catch (Exception $e) {
     // error_log('Login error: ' . $e->getMessage());

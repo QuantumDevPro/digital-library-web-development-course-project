@@ -22,7 +22,7 @@ if ($searchTerm === '' && $category === '') {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Books - Digital Library</title>
 <link rel="stylesheet" href="css/style.css">
-<!-- <style>
+<style>
     #book-search-form{
     display: flex;
     flex-wrap: wrap;
@@ -33,14 +33,15 @@ if ($searchTerm === '' && $category === '') {
     background-color: #f9fafb;
     border-radius: 6px;
 }
-</style> -->
+</style>
 </head>
 <body>
-
+    
 <header>
 <nav class="navbar">
     <a href="index.php">Home</a>
     <a href="books.php">Books</a>
+    <a href="my_borrowings.php">My Borrowings</a>
     <a href="login.php">Login</a>
     <a href="register.php">Register</a>
 </nav>
@@ -86,8 +87,8 @@ if ($searchTerm === '' && $category === '') {
                     <p>Category: <?= htmlspecialchars($book['category']) ?></p>
                     <p>Status: <?= htmlspecialchars($book['status']) ?></p>
 
-                    <!-- later: details/borrow link -->
-                    <!-- <a href="book_details.php?id=<?= $book['id'] ?>">View details</a> -->
+                    <!-- details/borrow link -->
+                    <a href="book_details.php?id=<?= $book['id'] ?>">View details</a>
                 </div>
             <?php endforeach; ?>
         </div>

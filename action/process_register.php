@@ -34,6 +34,8 @@ try {
 
     if ($ok) {
         $_SESSION['register_success'] = 'user registered successfully.';
+        header('Location: ../login.php');
+        exit;
     } else {
         $_SESSION['register_error'] = 'failed to register user.';
     }
