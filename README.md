@@ -236,7 +236,7 @@ If logged in and the book is marked **available**:
 
 The system prevents:
 
-* Borrowing same book twice (active loan rule)
+* Borrowing same book twice
 * Borrowing unavailable books
 
 ---

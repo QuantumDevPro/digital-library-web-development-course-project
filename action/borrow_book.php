@@ -57,8 +57,6 @@ try {
     exit;
 
 } catch (Exception $e) {
-    // For now while developing:
-    // die('DEBUG: ' . $e->getMessage());
     $_SESSION['borrow_error'] = 'An error occurred while borrowing this book.';
     header('Location: ../book_details.php?id=' . $bookId);
     exit;

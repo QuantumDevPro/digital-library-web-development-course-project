@@ -1,8 +1,5 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 session_start();
 
 require_once __DIR__ . '/../database/userDAO.php';
@@ -40,11 +37,10 @@ try {
         $_SESSION['register_error'] = 'failed to register user.';
     }
 } catch (Exception $e) {
-    // // Log error
-    // error_log('rser registration error: '.$e->getMessage());
-    // // inform user with error
-    // $_SESSION['register_error'] = 'An error occurred while registering. Please try again.';
-    die('DEBUG ERROR: ' . $e->getMessage());
+    // Log error
+    error_log('rser registration error: '.$e->getMessage());
+    // inform user with error
+    $_SESSION['register_error'] = 'An error occurred while registering. Please try again.';
 
     // Redirect back to the form
     header('Location: ../register.php');

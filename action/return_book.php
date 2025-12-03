@@ -33,7 +33,6 @@ try {
     exit;
 
 } catch (Exception $e) {
-    // die('DEBUG: ' . $e->getMessage());
     $_SESSION['return_error'] = 'An error occurred while returning the book.';
     header('Location: ../my_borrowings.php');
     exit;

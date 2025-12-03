@@ -5,7 +5,7 @@ session_start();
 $_SESSION = [];
 session_destroy();
 
-// Optionally: remove session cookie
+// remove session cookie
 if (ini_get("session.use_cookies")) {
     $params = session_get_cookie_params();
     setcookie(session_name(), '', time() - 42000,
